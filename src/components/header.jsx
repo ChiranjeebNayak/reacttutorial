@@ -1,12 +1,13 @@
 import React from 'react'
-import Child from './child';
+import {Link} from 'react-router-dom'
 function Header() {
-    let a = 20;
-    
   return (
     <div>
-        <h1>Header {a}</h1>
-        <Child/>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/Contact"> Contact </Link></li>
+        </ul>
     </div>
   )
 }
