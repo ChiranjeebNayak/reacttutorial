@@ -20,6 +20,8 @@ import { Route, Routes } from 'react-router-dom';
 import Nopage from './components/Nopage';
 import Home from './components/home';
 import Reduce from './components/Reduce';
+import Hello from './components/Hello'
+import ReduxCounter from './components/ReduxCounter';
 function App() {
   return (
     // <Routes >
@@ -28,7 +30,8 @@ function App() {
     //   <Route path='/contact' element={<Contact/>}/>
     //   <Route path='*' element={<Nopage/>}/>
     // </Routes>
-    <Reduce/>
+    // <Reduce/>
+    <ReduxCounter/>
   )
 }
 
